@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
+
+	<!-- title -->
+	<title>ASBL AGRIVIE</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/png" href="assets/img/LOGOASBL.jpg">
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<!-- owl carousel -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<!-- magnific popup -->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- mean menu css -->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+	<!-- main style -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- responsive -->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+	
+	<!--PreLoader-->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <!--PreLoader Ends-->
+	
+	<<!-- header -->
+	<div class="top-header-area" id="sticker">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 text-center">
+					<div class="main-menu-wrap">
+						<!-- logo -->
+						<div class="site-logo">
+							<a href="index.html">
+								<img src="assets/img/LOGOASBL.png" alt="">
+							</a>
+						</div>
+						<!-- logo -->
+
+						<!-- menu start -->
+						<nav class="main-menu">
+							<ul>
+								<li><a href="index.html">Accueil</a></li>
+								<li><a href="about.html">Qui somme-nous ?</a></li>
+								<li><a href="service.html">Nos services</a></li>
+								<li><a href="objectif.html">Nos objectifs</a></li>
+								<li><a href="partenaires.html">Partenariat</a></li><br />
+								<li><a href="evenement.html">évènements</a></li>
+								<li><a href="envente.html">En vente et à louer en Côte d'Ivoire</a></li>
+								<li class="current-list-item"><a href="contact.html">Contactez-nous</a></li>
+								<li><a href="#"></a></li>
+							</ul>
+						</nav>
+						<div class="mobile-menu"></div>
+						<!-- menu end -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+	
+	<!-- breadcrumb-section -->
+	<div class="breadcrumb-section breadcrumb-bg7">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<div class="breadcrumb-text">
+						<h1>Contactez-nous</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end breadcrumb section -->
+
+	<!-- contact form -->
+	<div class="contact-from-section mt-150 mb-150">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 mb-5 mb-lg-0">
+					<div class="form-title">
+						<h2>Avez-vous des questions ?</h2>
+					</div>
+				 	<div id="form_status"></div>
+					<div class="contact-form">
+						<form type="POST" id="fruitkha-contact" onSubmit="return valid_datas( this );">
+							<p>
+								<input type="text" placeholder="Nom" name="name" id="name">
+								<input type="email" placeholder="Adresse mail" name="email" id="email">
+							</p>
+							<p>
+								<input type="tel" placeholder="Téléphone" name="phone" id="phone">
+								<input type="text" placeholder="Sujet" name="subject" id="subject">
+							</p>
+							<p><textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea></p>
+							<input type="hidden" name="token" value="FsWga4&@f6aw" />
+							<p><input type="submit" value="Envoyer"></p>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="contact-form-wrap">
+						<div class="contact-form-box">
+							<h4><i class="fas fa-map"></i>Addresse</h4>
+							<p>Avenue Reine Elisabeth 35/042 Liège 4020 Belgique</p>
+						</div>
+						<div class="contact-form-box">
+							<h4><i class="fas fa-address-book"></i>Téléphone</h4>
+							<p>+32 465 538 212</p>
+							<p>+225 07 79 478 621</p>
+							<p>+225 07 79 904 339</p>
+						</div>
+						<div class="contact-form-box">
+							<h4><i class="fas fa-envelope"></i>Adresse E-mail</h4>
+							<p>agrivie.asbl@live.be</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end contact form -->
+
+	<!-- find our location -->
+	<div class="find-location blue-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<p> <i class="fas fa-map-marker-alt"></i>Trouvez notre emplacement</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end find our location -->
+
+	<!-- google map section -->
+	<div class="embed-responsive embed-responsive-21by9">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.3197681146567!2d5.589533492431435!3d50.62117628956183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0f751b1be2a23%3A0xffcdc61360bb8853!2sAv.%20Reine%20Elisabeth%2035%2F042%2C%204020%20Li%C3%A8ge%2C%20Belgique!5e0!3m2!1sfr!2sci!4v1698718762407!5m2!1sfr!2sci" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+	<!-- end google map section -->
+
+	<!-- footer -->
+	<div class="footer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box about-widget">
+						<h2 class="widget-title">À propos de nous</h2>
+						<p>L'ASBL Agrivie (Association Sans But Lucratif Agrivie) est une plateforme Belge d'intermédiation socio-économique et culturelle en rélation avec la Côte d'Ivoire.</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box get-in-touch">
+						<h2 class="widget-title">Contactez-Nous</h2>
+						<ul>
+							<li>Avenue Reine Elisabeth 35/042 Liège 4020 Belgique </li>
+							<li>agrivie.asbl@live.be</li>
+							<li>Compte Triodos Bank : BE18 5230 8146 9365</li>
+							<li>Code BIC: TRIOBEBB</li>
+							<li>Adresse Triodos Bank : Rue haute 139/3 1000 Bruxelles</li>
+							<li><a href="https://www.triodos.be">https://www.triodos.be</a></li>
+							<li>+32 465 538 212</li>
+							<li>+225 07 79 478 621</li>
+							<li>+225 07 79 904 339</li>
+							<li>T.V.A : 0809.292.279 </li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box pages">
+						<h2 class="widget-title">Pages</h2>
+						<ul>
+							<li><a href="index.html">Accueil</a></li>
+							<li><a href="about.html">Qui somme-nous ?</a></li>
+							<li><a href="service.html">Nos services</a></li>
+							<li><a href="objectif.html">Nos objectifs</a></li>
+							<li><a href="partenaires.html">Partenariat</a></li>
+							<li><a href="evenement.html">évènements</a></li>
+							<li><a href="envente.html">En vente et à louer en Côte d'Ivoire</a></li>
+							<li><a href="contact.html">Contactez-nous</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="footer-box subscribe">
+						<h2 class="widget-title">S'abonner</h2>
+						<p>Abonnez-vous à notre liste de diffusion pour recevoir les dernières mises à jour.</p>
+						<form action="index.html">
+							<input type="email" placeholder="Adresse mail">
+							<button type="submit"><i class="fas fa-paper-plane"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+	
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<p>Copyrights &copy; 2023,  Tous droits réservés.</p>
+				</div>
+				<div class="col-lg-6 text-right col-md-12">
+					<div class="social-icons">
+						<ul>
+							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end copyright -->
+	
+	<!-- jquery -->
+	<script src="assets/js/jquery-1.11.3.min.js"></script>
+	<!-- bootstrap -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- count down -->
+	<script src="assets/js/jquery.countdown.js"></script>
+	<!-- isotope -->
+	<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+	<!-- waypoints -->
+	<script src="assets/js/waypoints.js"></script>
+	<!-- owl carousel -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- magnific popup -->
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<!-- mean menu -->
+	<script src="assets/js/jquery.meanmenu.min.js"></script>
+	<!-- sticker js -->
+	<script src="assets/js/sticker.js"></script>
+	<!-- form validation js -->
+	<script src="assets/js/form-validate.js"></script>
+	<!-- main js -->
+	<script src="assets/js/main.js"></script>
+	
+</body>
+</html>
